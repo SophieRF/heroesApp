@@ -1,50 +1,16 @@
-# React + TypeScript + Vite
+# Heroes App
+ Esta aplicación permite al usuario explorar una galería de héroes de distintos cómics y series y obtener información específica de cada uno.
+ Proyecto individual realizado como trabajo práctico para la carrera Tecnicatura Universitaria en Programación - UTN Mza.
+![Pantalla principal](./screenshots/GalleryView.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+ # Características
+- **Galería de Héroes:** Visualiza una lista de héroes con imágenes y descripción.
+- **Filtrado:** Filtra los héroes por Marvel o DC para ver solo los que te interesan.
+- **Buscar:** Barra de búsqueda para encontrar uno o más heroes cuyo nombre coincida con el texto ingresado.
+- **Vista del héroe:** Haz clic en una tarjeta de héroe para tener una vista más amplia del mismo.
+ 
+ # Tecnologías Utilizadas
+ - React + TypeScript
+ - CSS
+ - Vite
+ - Redux como manejador de estado
