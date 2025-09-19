@@ -1,5 +1,6 @@
 # Heroes App
  Esta aplicación permite al usuario explorar una galería de héroes de distintos cómics y series y obtener información específica de cada uno.
+ 
  Proyecto individual realizado como trabajo práctico para la carrera Tecnicatura Universitaria en Programación - UTN Mza.
  
 ![Pantalla principal](./screenshots/MainScreen.png)
@@ -28,8 +29,6 @@ Esta es una aplicación de demostración para fines académicos. Para acceder:
 **Credenciales de prueba:**
 * Usuario: `admin`
 * Contraseña: `1234`
-
-> ⚠️ Nota: Esta aplicación es solo para demostración y no implementa un sistema de autenticación real.
 
 # Preview
 
