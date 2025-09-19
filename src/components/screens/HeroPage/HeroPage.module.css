@@ -6,6 +6,17 @@
     height: 100%;
 }
 
+.containerHeroInfo{
+    margin-left: 1rem;
+}
+.containerHeroInfo ul {
+    padding: 0;
+}
+.containerHeroInfo li{
+    font-size: large;
+   list-style-type: none; 
+}
+
 .containerImgHeroPage {
     padding: 0.4rem;
 }

@@ -26,17 +26,17 @@ export const HeroPage = () => {
                 <div className={styles.containerImgHeroPage}>
                     <img src={`/assets/heroes/${id}.jpg`} />
                 </div>
-                <div>
-                    <h3>{hero.superhero}</h3>
+                <div className={styles.containerHeroInfo}>
+                    <h2>{hero.superhero}</h2>
                     <ul>
                         <li>
-                            <b>Alter ego:</b>{hero.alter_ego}
+                            <b>Alter ego: </b>{hero.alter_ego}
                         </li>
                         <li>
-                            <b>Publicadora:</b>{hero.publisher}
+                            <b>Publicadora: </b>{hero.publisher}
                         </li>
                         <li>
-                            <b>Primera aparición:</b>{hero.first_appearance}
+                            <b>Primera aparición: </b>{hero.first_appearance}
                         </li>
                     </ul>
                     <Button variant="primary" onClick={handleNavigate}>Regresar</Button>
