@@ -5,19 +5,19 @@
  
 ![Pantalla principal](./screenshots/MainScreen.png)
 
-# Características
+## Características
 - **Galería de Héroes:** Visualiza una lista de héroes con imágenes y descripción.
 - **Filtrado:** Filtra los héroes por Marvel o DC para ver solo los que te interesan.
 - **Buscar:** Barra de búsqueda para encontrar uno o más heroes cuyo nombre coincida con el texto ingresado.
 - **Vista del héroe:** Haz clic en una tarjeta de héroe para tener una vista más amplia del mismo.
  
-# Tecnologías Utilizadas
+## Tecnologías Utilizadas
  - React + TypeScript
  - CSS
  - Vite
  - Redux como manejador de estado
 
-# Cómo ejecutar
+## Cómo ejecutar
 
 * Instalar dependencias: **npm install**
 
@@ -30,7 +30,7 @@ Esta es una aplicación de demostración para fines académicos. Para acceder:
 * Usuario: `admin`
 * Contraseña: `1234`
 
-# Preview
+## Preview
 
    **Pantalla Login**
    ![Pantalla login](./screenshots/LoginScreen.png)
